@@ -5,9 +5,9 @@ public class areaCirculo {
         float radio;
         double area;
         Scanner input = new Scanner(System.in);
-        System.out.println("Ingrese el radio en Cm :");
+        System.out.println("Ingrese el radio en cm :");
         radio = input.nextFloat();
-        area = 3.14*Math.pow(radio,2);
-        System.out.println("El area del Circulo es : "+area+" Cm cuadrados.");
+        area = 3.1415*Math.pow(radio,2);
+        System.out.println("El area del Circulo es : "+area+" cm cuadrados.");
     }
 }
